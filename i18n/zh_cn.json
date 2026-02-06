@@ -1,0 +1,187 @@
+{
+  "app": {
+    "name": "Chronos",
+    "tagline": "AI 学习伴侣"
+  },
+  
+  "nav": {
+    "command": "指挥中心",
+    "plan": "学习计划",
+    "tutor": "AI 导师",
+    "memory": "记忆库",
+    "graph": "知识图谱",
+    "settings": "设置"
+  },
+  
+  "sidebar": {
+    "user_label": "用户",
+    "user_plan": "免费版"
+  },
+  
+  "dashboard": {
+    "greeting": "你好，学习者 👋",
+    "greeting_sub": "这是你的学习概览",
+    "action_checkin": "打卡",
+    "checkin_missing": "请先在设置里配置打卡网址"
+  },
+  
+  "plan": {
+    "title": "学习计划",
+    "subtitle": "你的个性化学习路线",
+    "tab_today": "今日",
+    "tab_changes": "变更",
+    "tab_strategy": "策略",
+    "today_title": "自适应时间线",
+    "today_empty": "今天没有安排任务",
+    "today_add": "添加任务",
+    "generate_plan": "生成今日计划",
+    "changes_title": "计划历史",
+    "changes_empty": "暂无变更记录",
+    "strategy_title": "调优控制台",
+    "strategy_subtitle": "配置学习参数"
+  },
+  
+  "tutor": {
+    "title": "AI 导师",
+    "subtitle": "你的私人学习助手",
+    "placeholder": "问我任何问题...",
+    "send": "发送"
+  },
+  
+  "memory": {
+    "title": "记忆库",
+    "subtitle": "你保存的知识和笔记",
+    "empty": "暂无记忆",
+    "empty_desc": "完成学习任务来构建你的记忆库。",
+    "filter_all": "全部",
+    "filter_sessions": "学习记录",
+    "filter_mastery": "掌握度",
+    "filter_personal": "个人记忆",
+    "filter_preferences": "偏好设置"
+  },
+  
+  "graph": {
+    "title": "知识图谱",
+    "subtitle": "可视化你的知识网络"
+  },
+  
+  "settings": {
+    "title": "设置",
+    "subtitle": "自定义你的 Chronos 体验",
+    "save": "保存",
+    "saved": "设置已保存",
+    "unsaved": "有未保存的更改",
+    "reset": "恢复默认",
+    
+    "groups": {
+      "general": "通用",
+      "learning": "学习",
+      "adaptation": "自适应",
+      "tutor": "导师",
+      "memory": "记忆",
+      "api": "API"
+    },
+    
+    "general": {
+      "title": "通用设置",
+      "language": "语言",
+      "language_en": "English",
+      "language_zh": "简体中文"
+    },
+    
+    "learning": {
+      "title": "学习偏好",
+      "description": "配置主任如何规划你的学习",
+      "daily_target": "每日目标（分钟）",
+      "daily_target_desc": "每天想学习多少分钟",
+      "session_length": "首选学习时长",
+      "session_length_desc": "每个学习块的持续时间",
+      "mode_preference": "模式偏好",
+      "mode_preference_desc": "默认的学习强度",
+      "mode_recovery": "恢复",
+      "mode_standard": "标准",
+      "mode_sprint": "冲刺",
+      "avoid_modes": "避免模式",
+      "avoid_modes_desc": "要跳过的活动类型",
+      "avoid_practice": "避免练习",
+      "avoid_new_learning": "避免新学习",
+      "avoid_memorization": "避免记忆"
+    },
+    
+    "adaptation": {
+      "title": "干扰与自适应",
+      "description": "控制 Chronos 如何适应你的生活",
+      "adapt_auto": "自动调整计划",
+      "adapt_auto_desc": "让 Chronos 根据干扰自动调整计划",
+      "approval_required": "需要确认",
+      "approval_required_desc": "更改前先征求同意",
+      "sensitivity": "敏感度",
+      "sensitivity_desc": "检测干扰的敏感程度",
+      "sensitivity_low": "低",
+      "sensitivity_medium": "中",
+      "sensitivity_high": "高"
+    },
+    
+    "tutor": {
+      "title": "导师设置",
+      "description": "自定义你的 AI 教学助手",
+      "style": "默认导师风格",
+      "style_desc": "AI 导师与你互动的方式",
+      "use_memory": "使用记忆上下文",
+      "use_memory_desc": "允许导师基于你的记忆进行个性化回答",
+      "style_socratic": "苏格拉底式",
+      "style_socratic_desc": "通过提问引导",
+      "style_direct": "直接式",
+      "style_direct_desc": "给出清晰解释",
+      "style_practice": "练习优先",
+      "style_practice_desc": "从练习开始"
+    },
+    
+    "memory": {
+      "title": "记忆设置",
+      "description": "Chronos 应该记住你的什么",
+      "enable": "启用记忆",
+      "enable_desc": "允许 Chronos 记住你的偏好和进度",
+      "scope": "记忆范围",
+      "scope_desc": "要记住的信息类型",
+      "scope_preferences": "偏好设置",
+      "scope_goals": "目标",
+      "scope_weak_topics": "薄弱点",
+      "scope_schedule": "日程约束"
+    },
+    
+    "api": {
+      "title": "API 配置",
+      "description": "配置你的 Gemini API 连接",
+      "api_key": "API 密钥",
+      "api_key_desc": "你的 Google Gemini API 密钥",
+      "api_key_placeholder": "输入你的 API 密钥...",
+      "model": "模型",
+      "model_desc": "使用哪个 Gemini 模型",
+      "test_connection": "测试连接",
+      "test_success": "连接成功！",
+      "test_failed": "连接失败",
+      "no_key": "请在设置中配置你的 API 密钥"
+    },
+    
+    "checkin": {
+      "title": "浏览器打卡",
+      "description": "在浏览器中打开你的打卡页面",
+      "url": "打卡网址",
+      "url_desc": "用于打卡的页面地址",
+      "url_placeholder": "https://example.com/checkin",
+      "auto_open": "启动时自动打开",
+      "auto_open_desc": "Chronos 启动时自动打开打卡页面"
+    }
+  },
+  
+  "common": {
+    "loading": "加载中...",
+    "coming_soon": "即将推出",
+    "error": "出错了",
+    "retry": "重试",
+    "cancel": "取消",
+    "confirm": "确认",
+    "minutes": "分钟"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "app": {
+    "name": "Chronos",
+    "tagline": "AI Learning Companion"
+  },
+  
+  "nav": {
+    "command": "Command Center",
+    "plan": "Plan",
+    "tutor": "Tutor",
+    "memory": "Memory",
+    "graph": "Knowledge Graph",
+    "settings": "Settings"
+  },
+  
+  "sidebar": {
+    "user_label": "User",
+    "user_plan": "Free Plan"
+  },
+  
+  "dashboard": {
+    "greeting": "Hello, Learner 👋",
+    "greeting_sub": "Here's your learning overview",
+    "card_progress": "Weekly Progress",
+    "card_chats": "Recent Chats",
+    "card_actions": "Quick Actions",
+    "action_new_chat": "New Chat",
+    "action_upload": "Upload",
+    "action_bookmarks": "Bookmarks",
+    "action_checkin": "Check-in",
+    "checkin_missing": "Set your check-in URL in Settings"
+  },
+  
+  "plan": {
+    "title": "Learning Plan",
+    "subtitle": "Your personalized study roadmap",
+    "tab_today": "Today",
+    "tab_changes": "Changes",
+    "tab_strategy": "Strategy",
+    "today_title": "Adaptive Timeline",
+    "today_empty": "No tasks scheduled for today",
+    "today_add": "Add Task",
+    "generate_plan": "Generate Today Plan",
+    "changes_title": "Plan History",
+    "changes_empty": "No recent changes",
+    "strategy_title": "Tuning Console",
+    "strategy_subtitle": "Configure learning parameters"
+  },
+  
+  "tutor": {
+    "title": "AI Tutor",
+    "subtitle": "Your personal learning assistant",
+    "placeholder": "Ask me anything...",
+    "send": "Send"
+  },
+  
+  "memory": {
+    "title": "Memory Bank",
+    "subtitle": "Your saved knowledge and notes",
+    "empty": "No memories yet",
+    "empty_desc": "Complete learning sessions to build your memory bank.",
+    "filter_all": "All",
+    "filter_sessions": "Sessions",
+    "filter_mastery": "Mastery",
+    "filter_personal": "Personal",
+    "filter_preferences": "Preferences"
+  },
+  
+  "graph": {
+    "title": "Knowledge Graph",
+    "subtitle": "Visualize your knowledge network"
+  },
+  
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your Chronos experience",
+    "save": "Save",
+    "saved": "Settings saved successfully",
+    "unsaved": "Unsaved changes",
+    "reset": "Reset to Defaults",
+    
+    "groups": {
+      "general": "General",
+      "learning": "Learning",
+      "adaptation": "Adaptation",
+      "tutor": "Tutor",
+      "memory": "Memory",
+      "api": "API"
+    },
+    
+    "general": {
+      "title": "General Settings",
+      "language": "Language",
+      "language_en": "English",
+      "language_zh": "Simplified Chinese"
+    },
+    
+    "learning": {
+      "title": "Learning Preferences",
+      "description": "Configure how the Principal plans your learning",
+      "daily_target": "Daily Target (minutes)",
+      "daily_target_desc": "How many minutes you want to learn per day",
+      "session_length": "Preferred Session Length",
+      "session_length_desc": "Duration of each learning block",
+      "mode_preference": "Mode Preference",
+      "mode_preference_desc": "Your default learning intensity",
+      "mode_recovery": "Recovery",
+      "mode_standard": "Standard",
+      "mode_sprint": "Sprint",
+      "avoid_modes": "Avoid Modes",
+      "avoid_modes_desc": "Types of activities to skip",
+      "avoid_practice": "Avoid Practice",
+      "avoid_new_learning": "Avoid New Learning",
+      "avoid_memorization": "Avoid Memorization"
+    },
+    
+    "adaptation": {
+      "title": "Interruption & Adaptation",
+      "description": "Control how Chronos adapts to your life",
+      "adapt_auto": "Adapt Plan Automatically",
+      "adapt_auto_desc": "Let Chronos adjust your plan based on interruptions",
+      "approval_required": "Approval Required",
+      "approval_required_desc": "Ask for confirmation before making changes",
+      "sensitivity": "Sensitivity",
+      "sensitivity_desc": "How sensitive to detect interruptions",
+      "sensitivity_low": "Low",
+      "sensitivity_medium": "Medium",
+      "sensitivity_high": "High"
+    },
+    
+    "tutor": {
+      "title": "Tutor Settings",
+      "description": "Customize your AI teaching assistant",
+      "style": "Default Tutor Style",
+      "style_desc": "How the AI tutor interacts with you",
+      "use_memory": "Use Memory Context",
+      "use_memory_desc": "Let the tutor personalize answers using your memory",
+      "style_socratic": "Socratic",
+      "style_socratic_desc": "Guides through questions",
+      "style_direct": "Direct",
+      "style_direct_desc": "Gives clear explanations",
+      "style_practice": "Practice First",
+      "style_practice_desc": "Starts with exercises"
+    },
+    
+    "memory": {
+      "title": "Memory Settings",
+      "description": "What Chronos should remember about you",
+      "enable": "Enable Memory",
+      "enable_desc": "Allow Chronos to remember your preferences and progress",
+      "scope": "Remember Scope",
+      "scope_desc": "What types of information to remember",
+      "scope_preferences": "Preferences",
+      "scope_goals": "Goals",
+      "scope_weak_topics": "Weak Topics",
+      "scope_schedule": "Schedule Constraints"
+    },
+    
+    "api": {
+      "title": "API Configuration",
+      "description": "Configure your Gemini API connection",
+      "api_key": "API Key",
+      "api_key_desc": "Your Google Gemini API key",
+      "api_key_placeholder": "Enter your API key...",
+      "model": "Model",
+      "model_desc": "Which Gemini model to use",
+      "test_connection": "Test Connection",
+      "test_success": "Connection successful!",
+      "test_failed": "Connection failed",
+      "no_key": "Please configure your API key in Settings"
+    },
+    
+    "checkin": {
+      "title": "Check-in",
+      "description": "Open your check-in page in the browser",
+      "url": "Check-in URL",
+      "url_desc": "The URL used for your daily check-in",
+      "url_placeholder": "https://example.com/checkin",
+      "auto_open": "Auto open at startup",
+      "auto_open_desc": "Open the check-in page when Chronos starts"
+    }
+  },
+  
+  "common": {
+    "loading": "Loading...",
+    "coming_soon": "Coming Soon",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "minutes": "minutes"
+  }
+}

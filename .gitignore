@@ -1,0 +1,31 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# 运行日志
+flet_web_out.log
+flet_web_err.log
+*.log
+
+# 数据库与本地缓存
+data/*.db
+data/images/
+data/knowledge_graph.html
+data/settings.json
+data/working_memory/
+
+# 临时文件
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
